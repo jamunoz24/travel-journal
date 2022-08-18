@@ -30,12 +30,10 @@ section {
   background-color: white;
   width: 600px;
   border-radius: 0px 0px 10px 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 25px;
-}
 
 .entry {
     display: flex;
@@ -45,15 +43,42 @@ h1 {
     gap: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .entry--info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 9px;
 }
 
 .entry--info--location {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 12px;
+  height: 13px;
+  gap: 6px;
+}
+
+.entry--info--title {
+  font-weight: 700;
+  font-size: 25px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.entry--info--dates {
+    font-weight: 700;
+    font-size: 13px;
+    height: 14px;
+}
+
+.entry--info--description {
+    font-weight: 400;
+    font-size: 11px;
+    height: 45px;
 }

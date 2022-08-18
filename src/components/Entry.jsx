@@ -16,7 +16,7 @@ function Entry(props) {
                         View on Google Maps
                     </a>
                 </div>
-                <h1 className='entry--info--title'>{props.title}</h1>
+                <p className='entry--info--title'>{props.title}</p>
                 <div className='entry--info--dates'>
                     <h4>
                         {props.startDate} - {props.endDate}
