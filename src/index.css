@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: #E5E5E5;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;

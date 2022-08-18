@@ -1,12 +1,17 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
+import Entry from './components/Entry';
+import Data from './data';
 
 function App() {
-    const [count, setCount] = useState(0);
+    const locationElement = Data.map((loc) => {
+        return <Entry key={loc.id} {...loc} />;
+    });
 
     return (
         <div className='App'>
             <Navbar />
+            <section className='entry-list'>{locationElement}</section>
         </div>
     );
 }
