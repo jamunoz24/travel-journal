@@ -7,7 +7,7 @@ function Entry(props) {
             <div className='entry--info'>
                 <div className='entry--info--location'>
                     <img src={Pin} />
-                    <p className='entry--info--country'>{props.location}</p>
+                    <p className='entry--info--country'>{props.location.toUpperCase()}</p>
                     <a
                         href={props.googleMapsUrl}
                         target='_blank'
